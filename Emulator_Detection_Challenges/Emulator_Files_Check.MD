@@ -53,7 +53,7 @@ Sure enough, the file contains strings that are displayed when the emulator dete
 Now I just need to pick a class method that seems like a good candidate for injection.
 After some deliberating, I picked this method:
 
-![check files](Images/EmulatorDetection/FilesCheck/checkfiles.png)
+![check files](../Images/EmulatorDetection/FilesCheck/checkfiles.png)
 
 There are no doubt numerous ways to solve this, but this method looks easy. It appears to receive an array of files and then loops over them, returning *true* if any of them exist.
 The obvious counter to this is to remove the ability to return true and just make this method always return false. Meaning no emulator files will ever be flagged as existing.
