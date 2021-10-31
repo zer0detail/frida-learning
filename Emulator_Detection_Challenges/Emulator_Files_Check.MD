@@ -12,7 +12,9 @@ The challenge can be found in the app menu under *Menu -> Emulator Detection -> 
 The apps menu for this challenge confirms that the challenge will be looking for specific files and pipes that exist only for a handful of specific emulators.
 
 If I click through to the challenge itself by clicking on the gear icon and then the task button i'm presented with a simple screen with a single *Detect Emulator* button
+
 ![task](Images/FilesCheck/task.png)
+
 ![detect emulator](Images/FilesCheck/detect.png)
 
 So the challenge appears to be clicking the button and not having any emulators detected.
